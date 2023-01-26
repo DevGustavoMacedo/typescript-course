@@ -1,0 +1,38 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.task:last-child {
+  margin-bottom: 60px;
+}
+
+.details h4 {
+  color: #0f9d58;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions i {
+  margin-bottom: 1em;
+  font-size: 1em;
+  background-color: #282c34;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: 1s;
+  color: #0f9d58;
+}
+
+.actions i:hover {
+  color: #282c34;
+  background-color: #0f9d58;
+}
